@@ -1,1 +1,3 @@
 # ML-Trading
+
+This project starts by appending ticker names to a list and then for each ticker it loops through different strategies that we can execute. It starts by using the data_grab.py file. This file uses the finta library to calculate different technical indicators and put them in a Pandas dataframe. We can also then choose to use the LSTM_optimal file to find the optimal hyperparameters to use for each stock instead of a base set of hyperparameters. After that we send it through our LSTM neural network to try and predict which days will be up and which will be down based on our testing data given our previous training data.
